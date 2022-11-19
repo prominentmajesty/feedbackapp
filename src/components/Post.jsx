@@ -7,9 +7,9 @@ function Post() {
     <div>
         {/* <h1>{params._id}</h1> */}
         <h1>Post Here...</h1>
-        <button onClick={onClick}></button>
+        {/* <button onClick={onClick}></button> */}
         <Routes>
-            <Route path='/show' element={<h1>Hello World...</h1>} />
+            <Route path='/show' element={<h1>Hello World...</h1>} />cd  
         </Routes>
     </div>
   )
